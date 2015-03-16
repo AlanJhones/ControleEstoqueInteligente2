@@ -1,8 +1,10 @@
 package br.com.estoqueinteligente.bean;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
 
 @ManagedBean(name = "ola")
+@ViewScoped
 public class OlaBean {
 
 	private String nome;
